@@ -13,10 +13,8 @@ print("Your manual will be shown every time a patient enters. Oh look! One is co
 
 manual = "Normal ranges: Temperature 96–100°F, BP < 120, Heart Rate 60–100 bpm, Breathing 12–20."
 
-
-# -----------------
 # Patient generator
-# -----------------
+
 first_names = ["John", "Sarah", "Alex", "Emily", "Marcus", "Lila", "Owen", "Sophia", "Daniel", "Maya"]
 last_names = ["Carter", "Nguyen", "Patel", "Garcia", "Smith", "Khan", "Ivanov", "Silva", "Brown", "Lee"]
 
@@ -61,9 +59,9 @@ def generate_patient():
     return full_name, status, vitals, dialogue
 
 
-# -----------------
 # Game loop
-# -----------------
+
+
 score = 0
 strikes = 0
 max_strikes = 3
